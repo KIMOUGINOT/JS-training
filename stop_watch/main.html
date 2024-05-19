@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stop watch</title>
+    <style>
+        button{
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Stop watch</h1>
+    <h1 id="time">00:00</h1>
+    <button id="start" onclick="startClock()">Start</button>
+    <button id="stop" onclick="stopClock()">Stop</button>
+    <button id="reset" onclick="resetClock()">Reset</button>
+    <button id="lap" onclick="addLap()">Lap</button>
+    <div id="container"></div>
+    <script src="index.js"></script>    
+</body>
+</html>
